@@ -91,13 +91,14 @@ a {
     align-items: center;
     background-color: rgb(225, 253, 255);
     gap: 30px;
+    padding-top: 25px;
+    
 }
 
 .chest.title {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
-    margin-top: 25px;
 }
 
 .cards {
@@ -105,6 +106,7 @@ a {
     justify-content: space-evenly;
     align-items: center;
     gap: 50px;
+    margin-bottom: 75px;
 }
 
 .card {
@@ -122,19 +124,88 @@ a {
     border: none;
     font-size: 25px;
     font-weight: 600;
+    
 }
 
+.card.one {
+    background-color: rgb(103, 185, 195);
+}
+
+.card.two {
+    background-color: rgb(156, 60, 60);
+}
+
+.card.three {
+    background-color: rgb(241, 241, 120);
+}
+
+.card.four {
+    background-color: rgb(84, 89, 100);
+}
 /* Chest Start */
 
+/* Core Start */
 .core {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 100px;
 }
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin:10px 0 10px;
+}
+
+.quote.author {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 500px;
+}
+/* Core End */
+
+/* Leg Start */
 .leg {
-    background-color: rgb(225, 253, 255)
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(225, 253, 255);
+}
+.leg.border {
+    display: flex;
+    background-color: #3882F6;
+    min-width: 1400px;
+    min-height: 200px;
+    margin: 125px 0 125px;
+    border-radius: 1em;
 }
 
+.border.title {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.border.text {
+    margin-bottom: 30px;
+}
+
+.border.button {
+    background-color: #3882F6;
+    border: none;
+    color: #f9faf8;
+    font-size: 15px;
+    padding: 15px 35px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #f9faf8;
+    border-radius: 10px;
+}
+/* Leg End */
 .feet {
 
 }
